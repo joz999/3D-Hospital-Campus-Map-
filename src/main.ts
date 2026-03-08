@@ -30,6 +30,14 @@ let perfIndicator: HTMLDivElement | null = null;
 
 // Determine base path for GitHub Pages or local
 const basePath = import.meta.env.BASE_URL;
+const assetCdnBase = (import.meta.env.VITE_ASSET_CDN_URL as string | undefined)
+  ?.trim()
+  .replace(/\/+$/, '');
+
+function getAssetUrl(fileName: string, fromCdn = false): string {
+  if (fromCdn && assetCdnBase) return `${assetCdnBase}/${fileName}`;
+  return `${basePath}assets/${fileName}`;
+}
 
 init();
 animate();
@@ -82,14 +90,29 @@ function init() {
   // scene.fog = new THREE.Fog(0x87ceeb, 20, 1000); 
 
   if (!isLowSpecMode) {
-    // Load HDRI Environment Map
-    new RGBELoader()
-      .setPath(basePath + 'assets/')
-      .load('GSG_HC009_A065_UltimateSkies4k0064.hdr', function (texture) {
-        texture.mapping = THREE.EquirectangularReflectionMapping;
-        scene.background = texture;
-        scene.environment = texture;
-      });
+    const hdriFile = 'GSG_HC009_A065_UltimateSkies4k0064.hdr';
+    const hdriLocalUrl = getAssetUrl(hdriFile);
+    const hdriCdnUrl = assetCdnBase ? getAssetUrl(hdriFile, true) : null;
+    const envLoader = new RGBELoader().setCrossOrigin('anonymous');
+
+    const applyHdri = (texture: THREE.DataTexture) => {
+      texture.mapping = THREE.EquirectangularReflectionMapping;
+      scene.background = texture;
+      scene.environment = texture;
+    };
+
+    envLoader.load(
+      hdriLocalUrl,
+      applyHdri,
+      undefined,
+      () => {
+        if (hdriCdnUrl && hdriCdnUrl !== hdriLocalUrl) {
+          envLoader.load(hdriCdnUrl, applyHdri, undefined, () => {
+            console.warn(`Failed to load HDRI from local and CDN: ${hdriFile}`);
+          });
+        }
+      }
+    );
   } else {
     scene.background = new THREE.Color(0xa8c6e8);
   }
@@ -225,9 +248,13 @@ function init() {
   };
 
   const gltfLoader = new GLTFLoader(manager);
-  gltfLoader.setPath(basePath + 'assets/');
+  gltfLoader.setCrossOrigin('anonymous');
 
-  gltfLoader.load('000_SJ_Campus.glb', (gltf) => {
+  const modelFile = '000_SJ_Campus.glb';
+  const modelLocalUrl = getAssetUrl(modelFile);
+  const modelCdnUrl = assetCdnBase ? getAssetUrl(modelFile, true) : null;
+
+  const onCampusLoaded = (gltf: { scene: THREE.Object3D }) => {
     const object = gltf.scene;
     // Improve material appearance
     object.traverse((child) => {
@@ -267,11 +294,30 @@ function init() {
     scene.add(ground);
 
     scene.add(object);
-  }, (xhr) => {
+  };
+
+  const onCampusProgress = (xhr: ProgressEvent<EventTarget>) => {
     if (loadingTextElement) {
       loadingTextElement.innerText = `Loading Campus: ${Math.round((xhr.loaded / xhr.total) * 100) || 0}%`;
     }
-  });
+  };
+
+  const onCampusError = (triedFallback: boolean) => {
+    if (!triedFallback && modelCdnUrl && modelCdnUrl !== modelLocalUrl) {
+      if (loadingTextElement) {
+        loadingTextElement.innerText = 'Local model missing, loading from external storage...';
+      }
+      gltfLoader.load(modelCdnUrl, onCampusLoaded, onCampusProgress, () => onCampusError(true));
+      return;
+    }
+
+    if (loadingTextElement) {
+      loadingTextElement.innerText = 'Error loading model...';
+    }
+    console.error(`Failed to load model from local and CDN: ${modelFile}`);
+  };
+
+  gltfLoader.load(modelLocalUrl, onCampusLoaded, onCampusProgress, () => onCampusError(false));
 
   // Renderer Setup
   renderer = new THREE.WebGLRenderer({

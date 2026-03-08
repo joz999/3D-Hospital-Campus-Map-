@@ -250,7 +250,7 @@ function init() {
   const gltfLoader = new GLTFLoader(manager);
   gltfLoader.setCrossOrigin('anonymous');
 
-  const modelFile = '000_SJ_Campus.glb';
+  const modelFile = 'WebCampus.glb';
   const modelLocalUrl = getAssetUrl(modelFile);
   const modelCdnUrl = assetCdnBase ? getAssetUrl(modelFile, true) : null;
 

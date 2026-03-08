@@ -1,0 +1,695 @@
+newmtl Blacktop
+Kd 0.799802 0.779965 0.759899
+Ke 0 0 0
+Ka 0.5 0.5 0.5
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl BrickPinkD
+Kd 0.78883 0.568811 0.457252
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl BrickPinkDSmooth
+Kd 0.78883 0.568811 0.457252
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl BrickPinkL
+Kd 0.949157 0.847974 0.772519
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl BrickPinkLSmooth
+Kd 0.949157 0.847974 0.772519
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl BrickRed
+Kd 0.557534 0.322713 0.211856
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl BrickStone
+Kd 0.588235 0.588235 0.588235
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl BrickStoneBrown
+Kd 0.588235 0.490166 0.399771
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl BrickWhite
+Kd 0.940597 0.914656 0.880278
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl BrickWhiteSmooth
+Kd 0.940597 0.914656 0.880278
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Bronze
+Kd 0.495583 0.338521 0.25185
+Ke 0 0 0
+Ka 0.5 0.5 0.5
+Ks 0.95 0.95 0.95
+Ns 9
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Concrete
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 0.9 0.9 0.9
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FlatBlack
+Kd 0.142657 0.142657 0.142657
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.14 0.14 0.14
+Ns 159
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl GiftSvcsLogo
+Kd 0.940597 0.914656 0.880278
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/GiftSvcsLogo_Txtr.jpg
+
+newmtl Granite
+Kd 0.710796 0.470375 0.390173
+Ke 0 0 0
+Ka 0.6 0.6 0.6
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/GraniteAg1_Txtr.jpg
+
+newmtl HousingBanner
+Kd 1 0.888273 0.106432
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/HousingBanner_Txtr.jpg
+
+newmtl Plaque
+Kd 0 0 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.275 0.275 0.275
+Ns 200
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Plaque_Border
+Kd 0.862745 0.744915 0.456153
+Ke 0 0 0
+Ka 0.4 0.4 0.4
+Ks 0.2 0.2 0.2
+Ns 200
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl PoolTile
+Kd 0.443717 0.557137 0.717327
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Railing-Cable
+Kd 0.680919 0.660624 0.669612
+Ke 0 0 0
+Ka 0.4 0.4 0.4
+Ks 0 0 0
+Ns 600
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Railing-Handrail
+Kd 0.680919 0.660624 0.669612
+Ke 0 0 0
+Ka 0.4 0.4 0.4
+Ks 0 0 0
+Ns 600
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Railing-Stancion
+Kd 0.680919 0.660624 0.669612
+Ke 0 0 0
+Ka 0.4 0.4 0.4
+Ks 0 0 0
+Ns 600
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl RoofBrown
+Kd 0.470588 0.388235 0.34902
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl RoofGray
+Kd 0.588235 0.588235 0.588235
+Ke 0 0 0
+Ka 0.7 0.7 0.7
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl SecurStop
+Kd 0.780163 0 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/SecurityStop_Txtr.jpg
+
+newmtl ShadLogoWall_1
+Kd 0.949157 0.847974 0.772519
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/SLWall_1_Alpha.jpg
+
+newmtl ShadLogoWall_2
+Kd 0.949157 0.847974 0.772519
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/SLWall_2_Alpha.jpg
+
+newmtl Sign_Frame
+Kd 0.862745 0.744915 0.456153
+Ke 0 0 0
+Ka 0.4 0.4 0.4
+Ks 0.2 0.2 0.2
+Ns 200
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl SJLogo_PCC1
+Kd 0.949157 0.847974 0.772519
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/SJ_Logo_Txtr.jpg
+
+newmtl SJLogo_PCC2
+Kd 0.949157 0.847974 0.772519
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/SJ_Logo_Txtr.jpg
+
+newmtl Soil
+Kd 0.153658 0.114334 0.0774318
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.155 0.155 0.155
+Ns 0
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Tree_Cherry
+Kd 0.686275 0.662745 0.584314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/Cherry1.jpg
+map_Tr Textures/Cherry1_a.jpg
+map_bump Textures/Cherry1_b.jpg
+bump Textures/Cherry1_b.jpg
+
+newmtl Tree_Fir
+Kd 0.435294 0.435294 0.207843
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/Fir1.bmp
+map_Tr Textures/Fir1_a.bmp
+map_bump Textures/Fir1_b.bmp
+bump Textures/Fir1_b.bmp
+
+newmtl Tree_Maple
+Kd 0.568627 0.533333 0.435294
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/Maple1.jpg
+map_Tr Textures/Maple1_a.jpg
+map_bump Textures/Maple1_b.jpg
+bump Textures/Maple1_b.jpg
+
+newmtl Tree_Plum
+Kd 0.611765 0.576471 0.505882
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd Textures/Plum1.jpg
+map_Tr Textures/Plum1_a.jpg
+map_bump Textures/Plum1_b.jpg
+bump Textures/Plum1_b.jpg
+
+newmtl TrimBlack
+Kd 0.184802 0.185763 0.184314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimBlue
+Kd 0.219608 0.443137 0.658824
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimBrown
+Kd 0.160784 0.12549 0.14902
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimBrownSmooth
+Kd 0.160784 0.12549 0.14902
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimChrome
+Kd 0.980392 0.980392 0.980392
+Ke 0 0 0
+Ka 0.35 0.35 0.35
+Ks 0.4 0.4 0.4
+Ns 159
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimChromeSmooth
+Kd 0.980392 0.980392 0.980392
+Ke 0 0 0
+Ka 0.35 0.35 0.35
+Ks 0.4 0.4 0.4
+Ns 159
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimDark
+Kd 0.215686 0.211765 0.196078
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.385 0.385 0.385
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimGold
+Kd 0.94902 0.752941 0.337255
+Ke 0 0 0
+Ka 0.45 0.45 0.45
+Ks 0.4 0.4 0.4
+Ns 639
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimGoldSmooth
+Kd 0.94902 0.752941 0.337255
+Ke 0 0 0
+Ka 0.45 0.45 0.45
+Ks 0.4 0.4 0.4
+Ns 639
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimGreen
+Kd 0 0.298039 0.301961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimIron
+Kd 0.176471 0.137255 0.137255
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimOrange
+Kd 1 0.508247 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimPink
+Kd 0.948623 0.896468 0.851362
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimPinkSmooth
+Kd 0.948623 0.896468 0.851362
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimRed
+Kd 0.576471 0.0862745 0.219608
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimRedFlat
+Kd 0.576471 0.0862745 0.219608
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimRedSmooth
+Kd 0.576471 0.0862745 0.219608
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimTile
+Kd 0.901961 0.901961 0.901961
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimWhite
+Kd 0.999908 0.96405 0.923613
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimYellow
+Kd 1 0.8 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl TrimYellowSmooth
+Kd 1 0.8 0
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl Waterfall
+Kd 0 0.101961 0.278431
+Ke 0 0 0
+Ka 0.75 0.75 0.75
+Ks 1 1 1
+Ns 1000
+Tr 0.5
+d 0.5
+Ni 1
+Tf 1 1 1
+
+newmtl Window
+Kd 0.0817426 0.133989 0.145724
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl WindowGrizzLogo
+Kd 0.0817426 0.133989 0.145724
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl WindowShades
+Kd 0.590173 0.76112 0.81828
+Ke 0 0 0
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl WindowTrans
+Kd 0.498085 0.506096 0.500206
+Ke 0 0 0
+Ka 0.5 0.5 0.5
+Ks 0.5 0.5 0.5
+Ns 400
+Tr 0.5
+d 0.5
+Ni 1
+Tf 1 1 1
+
